@@ -43,3 +43,8 @@ Cada tecla digitada pelo usuário deve gerar duas senoides, cujas frequencias da
         <td>D</td>
     </tr>
 </table>
+<br/>
+
+Esse sinal de áudio deve ser executado por um computador, e captado pelo outro. 
+
+O computador receptor (arquivo `Decoder.py`), deve captar o sinal do áudio gerado (pelo computador ou celular), identificar os picos por meio datransformada de Fourier e assim identificar a tecla relativa as frequencias que compõem o sinal.
